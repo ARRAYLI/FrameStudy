@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- 建立类与表的映射关系 -->
+	<class name="com.itheima.hibernate.demo1.Customer" table= "cst_customer">
+		<!-- 建立类中的主键与表中的属性对应 -->
+		<id name="cust_id" column="cust_id" >
+			<generator class = "native"/>
+		</id>
+	
+		<!-- 建立类中的属性和表中的字段对应 -->
+		<property name="cust_name" column="cust_name" />
+		<property name="cust_source" column="cust_source" />
+		<property name="cust_industry" column="cust_industry" />
+		<property name="cust_level" column="cust_level" />
+		<property name="cust_mobile" column="cust_mobile" />
+	</class>
+</hibernate-mapping>

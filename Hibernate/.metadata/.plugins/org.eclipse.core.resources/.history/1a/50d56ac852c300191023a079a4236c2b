@@ -1,0 +1,25 @@
+package com.itheima.hibernate.domain;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * @author lzj13
+ *	客户的实体
+ */
+public class Customer {
+	private Long cust_id;
+	private String cust_name;
+	private String cust_source;
+	private String cust_industry;
+	private String cust_level;
+	private String cust_phone;
+	private String cust_mobile;
+	
+	// 通过ORM方式表示：一个客户对应多个联系人
+	// 放置的多的一方的集合。Hibernate默认使用的是Set集合
+	private Set<LinkMan> linkMans = new HashSet<LinkMan>();
+	
+	
+}
+ 

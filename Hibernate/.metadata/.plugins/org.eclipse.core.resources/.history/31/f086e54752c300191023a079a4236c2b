@@ -1,0 +1,10 @@
+package com.itheima.hibernate.domain; 
+
+/**
+ * @author lzj13
+ *	
+ */
+public class Customer {
+
+}
+ 

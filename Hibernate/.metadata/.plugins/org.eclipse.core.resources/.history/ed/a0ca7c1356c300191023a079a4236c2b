@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+<hibernate-mapping>
+	<class name="/hibernate_day03/src/com/itheima/hibernate/domain/Customer.java" table="cst_customer"></class>
+</hibernate-mapping>

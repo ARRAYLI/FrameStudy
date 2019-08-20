@@ -1,0 +1,6 @@
+package com.itheima.hibernate.domain; 
+
+public class Customer {
+
+}
+ 

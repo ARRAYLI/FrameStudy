@@ -1,0 +1,10 @@
+package com.itheima.hibernate.domain; 
+
+/**
+ * @author lzj13
+ *	联系人的实体
+ */
+public class LinkMan {
+
+}
+ 
